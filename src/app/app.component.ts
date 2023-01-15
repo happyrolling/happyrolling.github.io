@@ -5,30 +5,25 @@ import { isPlatformBrowser } from '@angular/common';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent implements OnInit {
+  title = 'کلاس‌های رایگان استاد دارائی';
+  // footerUrl = 'https://www.ganatan.com/';
+  // footerLink = 'www.ganatan.com';
 
-  title = 'angular-bootstrap';
-  footerUrl = 'https://www.ganatan.com/';
-  footerLink = 'www.ganatan.com';
-
-  constructor(
-    @Inject(PLATFORM_ID) private platformId: object) {
-  }
+  constructor(@Inject(PLATFORM_ID) private platformId: object) {}
 
   ngOnInit(): void {
-
     if (isPlatformBrowser(this.platformId)) {
       const navMain = document.getElementById('navbarCollapse');
       if (navMain) {
         navMain.onclick = function onClick() {
           if (navMain) {
-            navMain.classList.remove("show");
+            navMain.classList.remove('show');
           }
-        }
+        };
       }
     }
-  } 
-
+  }
 }

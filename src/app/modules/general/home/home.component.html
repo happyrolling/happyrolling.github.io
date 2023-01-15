@@ -1,53 +1,113 @@
-<div class="container py-5">
-  <div class="row">
-    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 text-center mb-2">
-      <h1 class="h5">
-        <i class="fas fa-laptop fa-lg me-2 text-primary"></i>
-        {{ name }}
-        <i class="fas fa-mobile-alt fa-lg ms-2 text-primary"></i>
-      </h1>
-    </div>
-    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-3 text-center text-danger mb-2">
-      <h2 class="h5">
-        {{ version }}<i class="fab fa-angular fa-lg ms-2"></i>
-      </h2>
-    </div>
-    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-3 text-center text-primary mb-2">
-      <h2 class="h5">
-        {{ bootstrap }}<i class="fab fa-bootstrap fa-lg ms-2"></i>
-      </h2>
-    </div>
-    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-3 text-center text-success mb-2">
-      <h2 class="h5">
-        {{ fontawesome }}<i class="fab fa-font-awesome-flag fa-lg ms-2"></i>
-      </h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row mb-2">
-    <div class="col-md-12 text-center mb-4">
-      <h3 class="h5">Features<i class="fas fa-list ms-2"></i></h3>
-    </div>
-  </div>
-  <div class="row pt-2">
-    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-2" *ngFor="let feature of features">
-      <div class="card nga-card bg-light mb-3">
-        <a routerLink="/{{ feature.link }}">
-          <div class="card-header">
-            <div class="row">
-              <div class="col-10 col-xl-10">
-                <h4 class="card-title h5">{{ feature.name }}</h4>
-              </div>
-              <div class="col-2 col-xl-2">
-                <i class="{{ feature.icon }} fa-lg text-primary"></i>
-              </div>
-            </div>
-          </div>
-          <div class="card-body">
-            <p class="card-text">{{ feature.description }}</p>
-          </div>
-        </a>
-      </div>
+<div class="px-4 py-5 my-5 text-center">
+  <h1 class="display-5 fw-bold">دوره آموزش رایگان آلمانی</h1>
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4">
+      دوره‌های رایگان استاد دارائی با ارائه‌ی کاملا رایگان کلاس‌های آموزش
+      آلمانی، این فرصت را به شما خواهد داد تا با یادگیری این زبان، فرصت‌های
+      مهاجرتی بهتری داشته باشید. برای دیدن لینک‌های صفحات مجازی ما روی دکمه
+      پایین کلیک کنید
+    </p>
+    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+      <a href="#links">
+        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
+          لینک صفحات مجازی
+          <i class="fas fa-chevron-down"></i>
+        </button>
+      </a>
     </div>
   </div>
 </div>
+<section class="home-wrapper container-xs">
+  <div class="links-wrapper" id="links">
+    <div class="card-group"></div>
+    <div class="card-group">
+      <div class="card">
+        <img
+          src="../../../../assets/images/youtube-glass-geometry-shapes-abstract-composition-art-3d-rendering_1379-5644.webp"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">صفحه یوتوب ما</h5>
+          <p class="card-text">
+            برای دیدن همه استریم و کلاس‌های قبلی و شرکت در کلاس‌های آنلاین کانال
+            Youtube مارا دنبال کنید
+          </p>
+          <div class="d-grid gap-2">
+            <button class="btn btn-outline-danger" type="button">
+              ورود به صفحه Youtube
+              <i class="fas fa-sign-in"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="../../../../assets/images/linkedin-logo-around-3d-rendering-abstract-shape-background_1379-4855.webp"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">صفحه لینکدین</h5>
+          <p class="card-text">
+            برای در ارطبات بودن و شرکت در کلاس‌ها صفحه لینکدین را دنبال کنید
+          </p>
+          <br />
+          <br />
+          <br />
+
+          <div class="d-grid gap-2">
+            <button class="btn btn-outline-primary" type="button">
+              ورود به صفحه لینکدین
+              <i class="fas fa-sign-in"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="../../../../assets/images/telegram-logo-abstract-geometry_41204-9667.webp"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">کانال تلگرام</h5>
+          <p class="card-text">
+            میتوانید به صورت آنلاین در کلاس‌های آلمانی تلگرام شرکت کنید
+          </p>
+          <br />
+          <br />
+          <div class="d-grid gap-2">
+            <button class="btn btn-outline-primary" type="button">
+              ورود به کانال تلگرام
+              <i class="fas fa-sign-in"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          src="../../../../assets/images/instagram-logo-around-3d-rendering-abstract-shape-background_1379-4778.webp"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">صفحه اینستاگرام ما</h5>
+          <p class="card-text">آخرین اخبار را در این صفحه دنبال کنید</p>
+          <br />
+          <br />
+          <br />
+          <br />
+
+          <div class="d-grid gap-2">
+            <button class="btn btn-outline-danger" type="button">
+              ورود به صفحه اینستاگرام
+              <i class="fas fa-sign-in"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
