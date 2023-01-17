@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1673850731098,
+  "timestamp": 1673971073074,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -20,7 +20,7 @@
         "/832.fd1562597d30421e.js",
         "/favicon.ico",
         "/index.html",
-        "/main.860f19c226689219.js",
+        "/main.d8d9695d8a564c49.js",
         "/manifest.webmanifest",
         "/polyfills.0fe25882753b222c.js",
         "/runtime.3a5c9461772bf238.js",
@@ -55,6 +55,7 @@
         "/assets/icons/icon-72x72.png",
         "/assets/icons/icon-96x96.png",
         "/assets/images/Telegram_logo.svg.webp",
+        "/assets/images/aparat.jpg",
         "/assets/images/germany-image.jpg",
         "/assets/images/instagram-logo-around-3d-rendering-abstract-shape-background_1379-4778.webp",
         "/assets/images/linkedin-logo-around-3d-rendering-abstract-shape-background_1379-4855.webp",
@@ -128,6 +129,7 @@
     "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/assets/images/Telegram_logo.svg.webp": "b039622d34fadc67b56d26748c95afc9b919ec73",
+    "/assets/images/aparat.jpg": "bc915d19d45ea2290d3dc84ab408457ef7743dda",
     "/assets/images/germany-image.jpg": "197826390f8e29f78ca67e96dd2ea14ebeb5f8cc",
     "/assets/images/instagram-logo-around-3d-rendering-abstract-shape-background_1379-4778.webp": "b4b1c8a5242e1d869a162f1d869fb2cfda1d6ae7",
     "/assets/images/linkedin-logo-around-3d-rendering-abstract-shape-background_1379-4855.webp": "c6a62345afabc58dca51a800177ceca382da5c5a",
@@ -171,8 +173,8 @@
     "/fa-v4compatibility.2484748dc83e00c0.ttf": "52a84a6495e27f43e9762f2c2a9531d9fe15e9ee",
     "/fa-v4compatibility.3d89958eb70dfc25.woff2": "dd7e4a76de26e9e39168dfac3fbb8a34a87b76bc",
     "/favicon.ico": "b03261f7f1a940cc221af641abc6397d13636ecd",
-    "/index.html": "91a4c6c6657582ab4e41045d61bee2823968fcb9",
-    "/main.860f19c226689219.js": "7dc19963d78026af90fec5cfe35d4af08a192376",
+    "/index.html": "107a28ec778a14b458d228bd0552ea85b243d34d",
+    "/main.d8d9695d8a564c49.js": "7d371cc8137b4b640b820f6d0ee93d3ae4b5ae51",
     "/manifest.webmanifest": "85e05bc91e09e81d4ae86e61a913cd8860b3f7be",
     "/polyfills.0fe25882753b222c.js": "d1ed37ac2d2392db5a42e4f42c031d74c0bf95e4",
     "/runtime.3a5c9461772bf238.js": "85d23c78bf0b51f99b0f5a61bff80329b9607ab1",
