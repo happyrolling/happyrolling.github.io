@@ -1,7 +1,6 @@
-import { Component } from '@angular/core';
 import { environment } from '../../../../environments/environment';
 import { SeoService } from '../../../services/seo/seo.service';
-import { Feature } from './feature';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-home',

@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1673972908382,
+  "timestamp": 1674061608570,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -20,7 +20,7 @@
         "/832.fd1562597d30421e.js",
         "/favicon.ico",
         "/index.html",
-        "/main.d709e137b8279c6e.js",
+        "/main.c31fb13a12665124.js",
         "/manifest.webmanifest",
         "/polyfills.0fe25882753b222c.js",
         "/runtime.3a5c9461772bf238.js",
@@ -57,6 +57,7 @@
         "/assets/images/Telegram_logo.svg.webp",
         "/assets/images/aparat.jpg",
         "/assets/images/germany-image.jpg",
+        "/assets/images/google-meet.jpeg",
         "/assets/images/instagram-logo-around-3d-rendering-abstract-shape-background_1379-4778.webp",
         "/assets/images/linkedin-logo-around-3d-rendering-abstract-shape-background_1379-4855.webp",
         "/assets/images/map-germany.png",
@@ -131,6 +132,7 @@
     "/assets/images/Telegram_logo.svg.webp": "b039622d34fadc67b56d26748c95afc9b919ec73",
     "/assets/images/aparat.jpg": "bc915d19d45ea2290d3dc84ab408457ef7743dda",
     "/assets/images/germany-image.jpg": "197826390f8e29f78ca67e96dd2ea14ebeb5f8cc",
+    "/assets/images/google-meet.jpeg": "cd3680d683980d5ed32ed46a1b142d2f7a0628ff",
     "/assets/images/instagram-logo-around-3d-rendering-abstract-shape-background_1379-4778.webp": "b4b1c8a5242e1d869a162f1d869fb2cfda1d6ae7",
     "/assets/images/linkedin-logo-around-3d-rendering-abstract-shape-background_1379-4855.webp": "c6a62345afabc58dca51a800177ceca382da5c5a",
     "/assets/images/map-germany.png": "eba0425e253341613315c63ff102477e524ced88",
@@ -173,8 +175,8 @@
     "/fa-v4compatibility.2484748dc83e00c0.ttf": "52a84a6495e27f43e9762f2c2a9531d9fe15e9ee",
     "/fa-v4compatibility.3d89958eb70dfc25.woff2": "dd7e4a76de26e9e39168dfac3fbb8a34a87b76bc",
     "/favicon.ico": "b03261f7f1a940cc221af641abc6397d13636ecd",
-    "/index.html": "3fe3bc9d852295c12dfac9bff07d8ad7d9949941",
-    "/main.d709e137b8279c6e.js": "d5246c4a38e32555455373926873eb0784240125",
+    "/index.html": "58967f57187123bcebdd5a6aa233fd6eccc5a623",
+    "/main.c31fb13a12665124.js": "dbe516eccd0b8f79361b2961b25097dbbccafbbf",
     "/manifest.webmanifest": "85e05bc91e09e81d4ae86e61a913cd8860b3f7be",
     "/polyfills.0fe25882753b222c.js": "d1ed37ac2d2392db5a42e4f42c031d74c0bf95e4",
     "/runtime.3a5c9461772bf238.js": "85d23c78bf0b51f99b0f5a61bff80329b9607ab1",
